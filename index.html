@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,21 +17,21 @@
           <h2 class="application-form__text">ФОРМА ЗАЯВКИ</h2>
           <div class="application-form__about-name">
             <div class="application-form__input">
-              <input class="" type="text" placeholder="Ваше имя" name="name" />
-              <label for="text"></label>
+              <input class="" type="text" id="name" placeholder="Ваше имя" name="name" />
+              <label for="name"></label>
             </div>
             <div class="application-form__input">
-              <input type="text" placeholder="Вашa фамилия" name="surname" />
-              <label for="text"></label>
+              <input type="text" id="surname" placeholder="Вашa фамилия" name="surname" />
+              <label for="surname"></label>
             </div>
           </div>
           <div class="application-form__about-contact">
           <div class="application-form__input">
-            <input type="number" placeholder="Ваш телефон" name="phone" />
-            <label for="number"></label>
+            <input type="number" id="phone" placeholder="Ваш телефон" name="phone" />
+            <label for="phone"></label>
           </div>
           <div class="application-form__input">
-            <input type="email" placeholder="Ваш e-mail" name="e-mail" />
+            <input type="email" id="e-mail"  placeholder="Ваш e-mail" name="e-mail" />
             <label for="email"></label>
           </div>
         </div>
@@ -41,10 +42,11 @@
             cols="48"
             rows="10"
           ></textarea>
-          <button class="application-form__button">ОТПРАВИТЬ</button>
+          <button type="submit" class="application-form__button">ОТПРАВИТЬ</button>
         </form>
       </div>
     </main>
     <footer></footer>
   </body>
 </html>
+
